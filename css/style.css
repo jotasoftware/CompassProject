@@ -1,0 +1,546 @@
+body{
+    background: linear-gradient(#3C2A9E, #3B2A9F);
+    font-family: 'Poppins';
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Header */
+
+.main-header{
+    display: flex;
+    color: #FFFFFF;
+    margin: 37px 4vw;
+    justify-content: space-between;
+}
+
+.header-nav{
+    margin-top: 2px;
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav-item{
+    display: flex;
+    font-style: normal;
+    font-weight: 300;
+    height: 41px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3.5vw;
+}
+
+.header-nav-item-button{
+    background-color: #FA9021;
+    margin: 0;
+    width: 9.5vw;
+    height: 41px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.header-nav-item:hover{
+    color: #FA9021;
+}
+
+
+/* Main */ 
+
+.main-content {
+    margin: 115px 0 0;
+}
+
+/* Sections */
+
+.section-title{
+    font-weight: 700;
+}
+
+/* Introduction */
+
+.introduction-container{
+    margin: 0 10vw;
+    width: 37vw;
+}
+
+.introduction-title{
+    font-size: 50px;
+    margin: 25px 0 32px;
+}
+
+.introduction-credit{
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 155.2%;
+    color: #E87D0E;
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: #000;
+    margin-bottom: 0;
+}
+
+.introduction-description{
+    width: 36vw;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    margin: 0 0 70px;
+}
+
+.introduction-more-details{
+    background: linear-gradient(#FA8305, #FB9E3C);
+    margin: 0;
+    padding: 14px 31px;
+    border-radius: 40px;
+}
+
+.introduction-images{
+    position: absolute;
+    width: 465px;
+    height: 761px;
+    left: 54vw;
+    top: 0;
+    z-index: -1;
+    background-image: url(../img/joystick.svg);
+}
+
+.introduction-unreal{
+    position: absolute;
+    top: 210px;
+    left: 400px;
+}
+
+.introduction-cryengine{
+    position: absolute;
+    top: 205px;
+    left: 60px;
+}
+.introduction-unity{
+    position: absolute;
+    top: 410px;
+    left: -125px;
+}
+
+
+/* Trending Games */
+
+.trending-games{
+    margin: 200px 9vw 0;
+}
+
+.trending-games-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+.trending-games-title{
+    font-size: 30px;
+    font-weight: 550;
+    font-family: 'Rubik';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trending-games-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .11);
+    width: 139px;
+    height: 57px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Rubik';
+}
+
+
+/* Trending Games Cards*/
+
+.trending-games-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.trending-games-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 251px;
+    gap: 0;
+}
+
+.trending-games-item figure{
+    margin: 0;
+    gap: 0;
+} 
+.trending-games-item-description{
+    margin: 0;
+    display: flex;
+    font-size: 22px;
+    width: 170px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Rubik';
+}
+
+
+/* Best game */
+
+.best-game{
+    margin: 120px 9vw 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.best-game-title{
+    font-size: 35px;
+    font-weight: 500;
+    width: 57vw;
+    text-align: center;
+    line-height: 187.5%;
+}
+
+.best-game-about-container{
+    margin: 0 10vw;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0;
+}
+.best-game-about-top {
+    width: 545px;
+}
+
+.best-game-about-title{
+    font-size: 30px;
+    font-weight: 500;
+}
+.best-game-about-description{
+    line-height: 187.5%;
+    font-weight: 300;
+}
+
+.best-game-dots{
+    position: absolute;
+    width: 196px;
+    height: 154px;
+    left: 972px;
+    top: 1867px;
+    z-index: -1;
+    background-image: url(../img/orange-dots.svg);
+}
+
+.best-game-about-container figure{
+    margin: 30px 0 10px;
+    margin-top: 30px;
+}
+
+.best-game-about-container figure img{
+    width: 80vw;
+}
+
+
+/* About us */
+
+.about-us{
+    background-image: url('../img/background.svg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 0 9vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us-title{
+    font-weight: 700;
+    font-size: 30px;
+    padding: 0;
+    margin: 100px 0 20px;
+    line-height: 187.5%;
+    text-align: center;
+    width: 55vw;
+}
+
+.about-us-description{
+    text-align: center;
+    width: 57vw;
+    font-size: 16px;
+    line-height: 187.5%;
+}
+
+.about-us-skills-list{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 80px;
+}
+
+.about-us-skills-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    height: 164px;
+    gap: 10px;
+}
+
+.about-us-skills-item-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.about-us-skills-item > p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.about-us-skills-item > img{
+    width: 21px;
+    height: 21px;
+}
+
+
+/* Portfolio */
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    margin: 155px 9vw 30px;
+    align-items: center;
+}
+
+.portfolio-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.portfolio-description{
+    width: 497px;
+    height: 57px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 187.5%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portfolio-images-list{
+    max-width: 1200px;
+    width: 84vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin-bottom: 65px;
+}
+
+.portfolio-images-list > figure{
+    margin: 0.7vw;
+}
+
+.portfolio-see-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .11);
+    width: 139px;
+    height: 57px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Rubik';
+    margin: 0;
+}
+
+/* Subscribe */
+
+.subscribe{
+    margin: 100px 9vw 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subscribe-title{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.subscribe-description{
+    line-height: 187.5%;
+    font-weight: 300;
+    max-width: 545px;
+    margin: 20px 0 70px;
+}
+
+.subscribe-container{
+    background-color: #1C140F;
+    padding: 40px 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.subscribe-container-about{
+    margin: 0;
+    width: 36vw;
+}
+
+.subscribe-container-title{
+    margin: 0 0 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.subscribe-container-description{
+    margin: 0;
+    line-height: 187.5%;
+    font-weight: 300;
+}
+
+.subscribe-container-form{
+    margin: 0;
+    width: 26vw;
+    height: 48px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}   
+
+.subscribe-container-form input{
+    margin: 0;
+    width: 60%;
+    margin-left: 8%;
+    height: 70%;
+    border: none;
+}   
+.subscribe-container-form input::placeholder{  
+    font-family: poppins; 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #939393;
+}   
+.subscribe-container-form button{
+    margin: 0;
+    width: 25%;
+    margin-right: 2%;
+    height: 75%;
+    background: #DC7000;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-style: normal;     
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+}   
+
+/* Footer */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #070707;
+}
+
+.footer-container-info{
+    padding: 85px 7vw 35px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-title{
+    margin: 0;
+    font-weight: 400;
+}
+
+.footer-description{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer-info-description{
+    margin-bottom: 30px;
+    max-width: 380px;
+}
+
+.footer-about-us-nav{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    margin: 20px 60px 0 0;
+}
+
+.footer-contact-us{
+    max-width: 280px;
+}
+
+.footer-social-media-nav{
+    display: flex;
+    max-width: 183px;
+    gap: 15px;
+    align-self: flex-end;
+    padding: 25px;
+}
+.footer-social-media-nav > figure{
+    margin: 0;
+    background-color: white;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container-copyright{
+    border-top: solid white .3px;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+}

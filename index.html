@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=\, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Compass Project</title>
 </head>
 <body>
-    <header id="main-header">
-        <img src="./assets/img/ods11.png" alt="" class="img-ods">
+    <aside class="introduction-images">
+        <!-- <img src="./img/joystick.svg" alt="joystick image" class="introduction-joystick"> -->
+        <img src="./img/icons/cry-icon.svg" alt="cryengine icon" class="introduction-cryengine">
+        <img src="./img/icons/unity-icon.svg" alt="unity icon" class="introduction-unity">
+        <img src="./img/icons/unreal-icon.svg" alt="unreal icon" class="introduction-unreal">
+    </aside>
+    <header class="main-header">
+        <img src="./img/icons/logo-icon.svg" alt="" class="img-ods">
         <nav class="header-nav">
             <a href=# class="header-nav-item">Home</a>
             <a href=# class="header-nav-item">About us</a>
             <a href=# class="header-nav-item">Portifolio</a>
             <a href=# class="header-nav-item">News</a>
-            <a href=# class="header-nav-item header-nav-item-active">Contact us</a>
+            <a href=# class="header-nav-item header-nav-item-button">Contact us</a>
         </nav>
     </header>
 
@@ -31,42 +39,44 @@
     
         <section class="trending-games">
             <div class="trending-games-container">
-                <h2 class="trending-games-title section-title">Currently Trending Games</h2>
-                <a href="#">See all</a>
+                <div class="trending-games-top">
+                    <h2 class="trending-games-title section-title">Currently Trending Games</h2>
+                    <a href="#" class="trending-games-btn">SEE ALL</a>
+                </div>
                 <div class="trending-games-list">
                     <div class="trending-games-item">
                         <figure>
-                            <img src=”” alt=”Game1”>
+                            <img src="./img/game1.svg" alt=”Game1”>
                         </figure>
                         <div class="trending-games-item-description">
-                            img fogo
+                            <img src="./img/icons/fire-icon.svg" alt="Fire Icon">
                             <p>40 Followers</p>
                         </div>
                     </div>
                     <div class="trending-games-item">
                         <figure>
-                            <img src=”” alt=”Game2”>
+                            <img src="./img/game2.svg" alt=”Game2”>
                         </figure>
                         <div class="trending-games-item-description">
-                            img fogo
+                            <img src="./img/icons/fire-icon.svg" alt="Fire Icon">
                             <p>40 Followers</p>
                         </div>
                     </div>
                     <div class="trending-games-item">
                         <figure>
-                            <img src=”” alt=”Game3”>
+                            <img src="./img/game3.svg" alt=”Game3”>
                         </figure>
                         <div class="trending-games-item-description">
-                            img fogo
+                            <img src="./img/icons/fire-icon.svg" alt="Fire Icon">
                             <p>40 Followers</p>
                         </div>
                     </div>
                     <div class="trending-games-item">
                         <figure>
-                            <img src=”” alt=”Game4”>
+                            <img src="./img/game4.svg" alt=”Game4”>
                         </figure>
                         <div class="trending-games-item-description">
-                            img fogo
+                            <img src="./img/icons/fire-icon.svg" alt="Fire Icon">
                             <p>40 Followers</p>
                         </div>
                     </div>
@@ -75,83 +85,92 @@
         </section>
 
         <section class="best-game">
-            <div class="best-game-container">
-                <h2 class="best-game-title section-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
-                <div class="best-game-about-container">
+            <h2 class="best-game-title section-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+            <div class="best-game-about-container">
+                <div class="best-game-about-top">
                     <h2 class="best-game-about-title section-title">Lorem Ipsum</h2>
                     <p class="best-game-about-description section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    <figure>
-                        <img src=”” alt=”Game5”>
-                    </figure>
                 </div>
+                <span class="best-game-dots"></span>
+                <figure>
+                    <img src="./img/bestgame.svg" alt="Best game">
+                </figure>
             </div>
         </section>
 
         <section class="about-us">
-            <div class="about-us-container">
-                <h2 class="about-us-title section-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
-                <p class="about-us-description section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <div class="about-us-skills-list">
-                    <article class="about-us-skills-item">
-                        <img src="" alt="">
-                        <p>Mobile Game Development</p>
-                        <span>seta</span>
-                    </article>
-                    <article class="about-us-skills-item">
-                        <img src="" alt="">
-                        <p>PC Game Development</p>
-                        <span>seta</span>
-                    </article>
-                    <article class="about-us-skills-item">
-                        <img src="" alt="">
-                        <p>PS4 Game Development</p>
-                        <span>seta</span>
-                    </article>
-                    <article class="about-us-skills-item">
-                        <img src="" alt="">
-                        <p>AR/VR Solutions</p>
-                        <span>seta</span>
-                    </article>
-                    <article class="about-us-skills-item">
-                        <img src="" alt="">
-                        <p>AR/VR design</p>
-                        <span>seta</span>
-                    </article>
-                    <article class="about-us-skills-item">
-                        <img src="" alt="">
-                        <p>3D Modelings</p>
-                        <span>seta</span>
-                    </article>
-                </div>
+            <h2 class="about-us-title section-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+            <p class="about-us-description section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <div class="about-us-skills-list">
+                <article class="about-us-skills-item">
+                    <div class="about-us-skills-item-icon">
+                        <img src="./img/icons/skill1-icon.svg" alt="skill 1">
+                    </div>
+                    <p>Mobile Game Development</p>
+                    <img src="./img/icons/arrow-icon.svg" alt="arrow icon">
+                </article>
+                <article class="about-us-skills-item">
+                    <div class="about-us-skills-item-icon">
+                        <img src="./img/icons/skill2-icon.svg" alt="skill 2">
+                    </div>
+                    <p>PC Game Development</p>
+                    <img src="./img/icons/arrow-icon.svg" alt="arrow icon">
+                </article>
+                <article class="about-us-skills-item">
+                    <div class="about-us-skills-item-icon">
+                        <img src="./img/icons/skill3-icon.svg" alt="skill 3">
+                    </div>
+                    <p>PS4 Game Development</p>
+                    <img src="./img/icons/arrow-icon.svg" alt="arrow icon">
+                </article>
+                <article class="about-us-skills-item">
+                    <div class="about-us-skills-item-icon">
+                        <img src="./img/icons/skill4-icon.svg" alt="skill 4">
+                    </div>
+                    <p>AR/VR Solutions</p>
+                    <img src="./img/icons/arrow-icon.svg" alt="arrow icon">
+                </article>
+                <article class="about-us-skills-item">
+                    <div class="about-us-skills-item-icon">
+                        <img src="./img/icons/skill5-icon.svg" alt="skill 5">
+                    </div>
+                    <p>AR/VR design</p>
+                    <img src="./img/icons/arrow-icon.svg" alt="arrow icon">
+                </article>
+                <article class="about-us-skills-item">
+                    <div class="about-us-skills-item-icon">
+                        <img src="./img/icons/skill6-icon.svg" alt="skill 6">
+                    </div>
+                    <p>3D Modelings</p>
+                    <img src="./img/icons/arrow-icon.svg" alt="arrow icon">
+                </article>
             </div>
         </section>
 
         <section class="portfolio">
-            <div class="portfolio-container">
-                <h2 class="portfolio-title section-title">Our Recent Projects</h2>
-                <p class="portfolio-description section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <div class="portfolio-images-list">
-                    <figure class="portfolio-images-item">
-                        <img src=”” alt=”Project1”>
-                    </figure>
-                    <figure class="portfolio-images-item">
-                        <img src=”” alt=”Project2”>
-                    </figure>
-                    <figure class="portfolio-images-item">
-                        <img src=”” alt=”Project3”>
-                    </figure>
-                    <figure class="portfolio-images-item">
-                        <img src=”” alt=”Project4”>
-                    </figure>
-                    <figure class="portfolio-images-item">
-                        <img src=”” alt=”Project5”>
-                    </figure>
-                    <figure class="portfolio-images-item">
-                        <img src=”” alt=”Project6”>
-                    </figure>
-                </div>
-                <a href="#" class="portfolio-see-all">See All</a>
+            <h2 class="portfolio-title section-title">Our Recent Projects</h2>
+            <p class="portfolio-description section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class="portfolio-images-list">
+                <figure class="portfolio-images-item">
+                    <img src="./img/project1.svg" alt=”Project1”>
+                </figure>
+                <figure class="portfolio-images-item">
+                    <img  src="./img/project2.svg" alt=”Project2”>
+                </figure>
+                <figure class="portfolio-images-item">
+                    <img  src="./img/project3.svg" alt=”Project3”>
+                </figure>
+                <figure class="portfolio-images-item">
+                    <img src="./img/project4.svg"  alt=”Project4”>
+                </figure>
+                <figure class="portfolio-images-item">
+                    <img  src="./img/project5.svg" alt=”Project5”>
+                </figure>
+                <figure class="portfolio-images-item">
+                    <img src="./img/project6.svg" alt=”Project6”>
+                </figure>
             </div>
+                <a href="#" class="portfolio-see-all">SEE ALL</a>
         </section>
 
         <section class="subscribe">
@@ -160,46 +179,58 @@
             <article class="subscribe-container">
                 <div class="subscribe-container-about">
                     <h2 class="subscribe-container-title section-title">Stay in the loop</h2>
-                    <p class="subscribe-container-description section-description">Subscribe to receive the latest news and updates about TDA. We promise not to spam you! </p>
+                    <p class="subscribe-container-description section-description">Subscribe to receive the latest news and updates about TDA.</p>
+                    <p class="subscribe-container-description section-description">We promise not to spam you! </p>
                 </div>
-                <div class="subscribe-container-form">
-                    <form>
-                        <input type="text" placeholder="Digite algo..." aria-label="Digite algo">
-                        <button type="submit" aria-label="Enviar">Enviar</button>
+                    <form class="subscribe-container-form">
+                        <input type="text" placeholder="Enter email address">
+                        <button type="submit">Continue</button>
                     </form>
-                </div>
             </article>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="footer-info">
-            logo
-            <p class="footer-info-description footer-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <p class="footer-info-description">@Logo</p>
+        <div class="footer-container-info">
+            <div class="footer-info">
+                <img src="./img/icons/logo-icon.svg" alt="logo icon">
+                <p class="footer-info-description footer-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p class="footer-info-description">@Logo</p>
+            </div>
+            <div class="footer-about-us">
+                <h4 class="footer-about-us-title footer-title">About us</h4>
+                <nav class="footer-about-us-nav">
+                    <a href="" class="footer-about-us-nav-item">Zeux</a>
+                    <a href="" class="footer-about-us-nav-item">Portifolio</a>
+                    <a href="" class="footer-about-us-nav-item">Carrers</a>
+                    <a href="" class="footer-about-us-nav-item">Contact us</a>
+                </nav>
+            </div>
+            <div class="footer-contact-us">
+                <h4 class="footer-contact-us-title footer-title">Contact us</h4>
+                <p class="footer-contact-us-description footer-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p class="footer-contact-us-description footer-description">+908 89097 890</p>
+            </div>
+            <div class="footer-social-media-nav">
+                <figure>
+                    <img src="./img/icons/facebook-icon.svg" alt="Facebook icon">
+                </figure>
+                <figure>
+                    <img src="./img/icons/instagram-icon.svg" alt="Instagram icon">
+                </figure>
+                <figure>
+                    <img src="./img/icons/twitter-icon.svg" alt="Twitter icon">
+                </figure>
+                <figure>
+                    <img src="./img/icons/linkedin-icon.svg" alt="Linkedin icon">
+                </figure>
+            </div>
         </div>
-        <div class="footer-about-us">
-            <h4 class="footer-about-us-title footer-title">About us</h4>
-            <nav class="footer-about-us-nav">
-                <a href="" class="footer-about-us-nav-item">Zeux</a>
-                <a href="" class="footer-about-us-nav-item">Portifolio</a>
-                <a href="" class="footer-about-us-nav-item">Carrers</a>
-                <a href="" class="footer-about-us-nav-item">Contact us</a>
-            </nav>
+        <div class="footer-container-copyright">
+            <p class="footer-container-copyright-description">Copyright ® 2022 prodesigner All rights Rcerved</p>
         </div>
-        <div class="footer-contact-us">
-            <h4 class="footer-contact-us-title footer-title">Contact us</h4>
-            <p class="footer-contact-us-description footer-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <p class="footer-contact-us-description footer-description">+908 89097 890</p>
-        </div>
-        <nav class="footer-social-media-nav">
-            <a href="" class="footer-nav-item">Zeux</a>
-            <a href="" class="footer-nav-item">Portifolio</a>
-            <a href="" class="footer-nav-item">Carrers</a>
-            <a href="" class="footer-nav-item">Contact us</a>
-        </nav>
     </footer>
 
-    <script src="main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
