@@ -1,0 +1,252 @@
+ body{
+    background: linear-gradient(#271bbf, #383837);
+    background-attachment: fixed;
+    font-family: 'Poppins';
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Introduction */
+
+
+.introduction-contact-us{
+    margin: 90px 9vw 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.introduction-contact-us-top > p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.introduction-contact-us-top > p > a:first-child{
+    margin-right: 10px;
+}
+
+.introduction-contact-us-top > p > span{
+    margin-left: 2px;
+    color: #E47500;
+}
+
+.introduction-contact-us-title{
+    margin: 20px 0 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 180.5%;  
+    text-align: center;  
+}
+
+.introduction-contact-us-description{
+    max-width: 610px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+
+/* Contact */
+
+
+.contact{
+    display: flex;
+    margin: 0 9vw 150px;
+}
+
+.contact-media{
+    display: flex;
+    width: 19.5vw;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+.contact-media-description{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contact-media-icons-nav{
+    display: flex;
+    max-width: 183px;
+    gap: 15px;
+}
+.contact-media-icons-nav > a{
+    margin: 0;
+    background-color: #1C140F;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease-in-out, background .2s linear;
+}
+
+.contact-media-icons-nav > a:hover{
+    transform: scale(1.1);
+    background: linear-gradient(#FA8305, #FB9E3C);
+}
+
+
+.contact-number{
+    display: flex;
+    width: 30.5vw;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border-left: solid white .5px;
+    border-right: solid white .5px;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.contact-number > img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-location{
+    display: flex;
+    width: 32vw;
+    gap: 15px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.contact-location > img {
+    padding-bottom: 20px;
+}
+
+.contact-location-address{
+    width: 325px;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/* Form Section */
+
+
+.form-section{
+    background-image: url(../img/background-contact.svg);
+    padding: 35px 9vw 60px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-section-title{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 189.5%;
+    margin-bottom: 0;
+}
+
+.form-section-description{
+    margin: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 189.5%;
+    text-align: center;
+}
+
+.form-section form{
+    margin-top: 80px;
+    max-width: 670px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 18px 26px;
+}
+
+.form-section-group-1{
+    display: flex;
+    flex-direction: column;
+    max-width: 322px;
+    width: 100%;
+}
+
+.form-section-group-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-section form label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175.4%;
+    letter-spacing: -0.3px;
+    color: #4F4F4F;
+
+}
+
+.form-section form input, .form-section form textarea{
+    background: rgba(255, 255, 255, 0.07);
+    border: 0.6px solid #888888;
+    border-radius: 9px;
+    height: 53px;
+    margin-top: 7px;
+    color: white;
+    padding: 0 15px;
+    font-size: 15px;
+    font-family: "Poppins";
+    outline: none;
+    transition: border .2s linear;
+}
+
+.form-section form textarea{
+    padding: 15px;
+    height: 200px;
+    resize: none;
+}
+
+.form-section form input:focus, .form-section form textarea:focus{
+    border: 0.6px solid #e6e6e6;
+}
+
+
+.form-section form button{
+    margin-top: 30px;
+    justify-self: flex-end;
+    align-self: flex-start;
+    width: 193px;
+    height: 57px;
+    background: #DC7000;
+    border-radius: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 204.3%;
+    border: none;
+    color: white;
+    transition: transform 0.2s ease-in-out, background .2s linear;
+}   
+
+.form-section form button:hover{
+    transform: scale(1.05);
+    background: #ff8400;
+}

@@ -1,0 +1,97 @@
+.subscribe{
+    margin: 100px 9vw 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subscribe-title{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.subscribe-description{
+    line-height: 187.5%;
+    font-weight: 300;
+    max-width: 545px;
+    margin: 20px 0 70px;
+}
+
+.subscribe-container{
+    background-color: #1C140F;
+    padding: 40px 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.subscribe-container-about{
+    margin: 0;
+    width: 36vw;
+}
+
+.subscribe-container-title{
+    margin: 0 0 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.subscribe-container-description{
+    margin: 0;
+    line-height: 187.5%;
+    font-weight: 300;
+}
+
+.subscribe-container-form{
+    margin: 0;
+    width: 26vw;
+    height: 48px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}   
+
+.subscribe-container-form input{
+    margin: 0;
+    width: 60%;
+    margin-left: 8%;
+    height: 70%;
+    border: none;
+    outline: none;
+}   
+
+.subscribe-container-form input::placeholder{  
+    font-family: poppins; 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #939393;
+}   
+
+.subscribe-container-form button{
+    margin: 0;
+    width: 25%;
+    margin-right: 2%;
+    height: 75%;
+    background: #DC7000;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-style: normal;     
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out, background .2s linear;
+}   
+
+.subscribe-container-form button:hover{
+    transform: scale(1.05);
+    background: #ff8400;
+}
