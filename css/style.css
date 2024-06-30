@@ -26,15 +26,16 @@ a{
 
 .introduction-title{
     font-size: 50px;
-    margin: 25px 0 32px;
+    margin: 20px 0 32px;
 }
 
 .introduction-credit{
+    font-family: 'Poppins';
     font-weight: 900;
     font-size: 21px;
     line-height: 155.2%;
     color: #E87D0E;
-    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-width: 1.2px;
     -webkit-text-stroke-color: #000;
     margin-bottom: 0;
 }
@@ -52,6 +53,13 @@ a{
     margin: 0;
     padding: 14px 31px;
     border-radius: 40px;
+    transition: .2s ease-in-out;
+}
+
+.introduction-more-details:hover{
+    font-size: 17px;
+    background: linear-gradient(#ff9524, #ffb464);
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.255);
 }
 
 .introduction-images{
@@ -113,6 +121,41 @@ a{
     font-weight: 400;
     font-size: 20px;
     font-family: 'Rubik';
+    position: relative;
+    overflow: hidden;
+}
+
+.trending-games-btn::before{
+    content: "";
+    width: 139px;
+    height: 57px;
+    border-radius: 10px;
+    position: absolute;
+    left: -100px;
+    top: 100%;
+    background: linear-gradient(#ff9524, #ffb464);
+    z-index: -1;
+}
+
+.trending-games-btn:hover:before{
+    animation: desloca .5s;
+    left: 0;
+    top: 0;
+}
+
+@keyframes desloca {
+    0%{
+        left: -100px;
+        top: 100%;
+    }
+    50%{
+        left: 15%;
+        top: -25%;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
 }
 
 
@@ -132,12 +175,30 @@ a{
     align-items: center;
     width: 251px;
     gap: 0;
+    transition: .2s linear;
 }
+
+.trending-games-list:hover > :not(:hover){
+    opacity: 0.7;
+    transform: scale(0.95);
+}
+
 
 .trending-games-item figure{
     margin: 0;
     gap: 0;
 } 
+
+.trending-games-item figure img{
+    transition: .3s ease-in-out;
+    border-radius: 20px;
+} 
+
+.trending-games-item figure img:hover{
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+} 
+
 .trending-games-item-description{
     margin: 0;
     display: flex;
@@ -206,16 +267,19 @@ a{
 
 .best-game-about-container figure img{
     width: 80vw;
+    transition: .2s ease-in-out;
 }
 
-
-/* About us */
+.best-game-about-container figure img:hover{
+    transform: scale(1.02);
+}
 
 .about-us{
     background-image: url('../img/background.svg'); 
     background-position: center;
     background-repeat: no-repeat;
-    height: auto;
+    background-size: cover; 
+    height: 1000px;
     padding: 0 9vw;
     display: flex;
     flex-direction: column;
@@ -248,6 +312,11 @@ a{
     margin-bottom: 80px;
 }
 
+.about-us-skills-list:hover > :not(:hover){
+    opacity: 0.8;
+    transform: scale(0.97);
+}
+
 .about-us-skills-item{
     display: flex;
     flex-direction: column;
@@ -255,6 +324,7 @@ a{
     width: 220px;
     height: 164px;
     gap: 10px;
+    transition: .2s;
 }
 
 .about-us-skills-item-icon{
@@ -262,9 +332,18 @@ a{
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 70.69px;
     border-radius: 50%;
+    transition: .2s;
+}
+
+.about-us-skills-item-icon img{
+    transition: .2s;
+}
+
+.about-us-skills-item-icon:hover img{
+    transform: scale(1.1);
 }
 
 .about-us-skills-item > p{
@@ -272,9 +351,13 @@ a{
     font-weight: 500;
 }
 
-.about-us-skills-item > img{
-    width: 21px;
-    height: 21px;
+.about-us-skills-item > a > svg{
+    transition: .2s;
+}
+
+.about-us-skills-item > a > svg:hover{
+    fill: white;
+    transform: scale(1.1);
 }
 
 
@@ -314,9 +397,23 @@ a{
     margin-bottom: 65px;
 }
 
+
 .portfolio-images-list > figure{
     margin: 0.7vw;
+    transition: .2s linear;
 }
+.portfolio-images-list:hover > :not(:hover){
+    opacity: 0.7;
+    transform: scale(0.99);
+}
+
+.portfolio-images-list > figure > img{
+    border-radius: 20px;
+    transition: .2s ease-in-out;
+} 
+.portfolio-images-list > figure > img:hover{
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+} 
 
 .portfolio-see-all{
     display: flex;
@@ -330,4 +427,24 @@ a{
     font-size: 20px;
     font-family: 'Rubik';
     margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-see-all::before{
+    content: "";
+    width: 139px;
+    height: 57px;
+    border-radius: 10px;
+    position: absolute;
+    left: -100px;
+    top: 100%;
+    background: linear-gradient(#ff9524, #ffb464);
+    z-index: -1;
+}
+
+.portfolio-see-all:hover:before{
+    animation: desloca .5s;
+    left: 0;
+    top: 0;
 }

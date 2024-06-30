@@ -39,6 +39,14 @@
     margin: 20px 60px 0 0;
 }
 
+.footer-about-us-nav a{
+    transition: .2s ease-in-out;
+}
+
+.footer-about-us-nav a:hover{
+    color: #FA8305;
+}
+
 .footer-contact-us{
     max-width: 280px;
 }
@@ -60,7 +68,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 0.2s ease-in-out, background .2s linear;
+    transition: transform 0.2s ease-in-out;
 }
 
 .footer-social-media-nav > a:hover{

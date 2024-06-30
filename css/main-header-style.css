@@ -25,12 +25,33 @@
 
 .header-nav-item{
     display: flex;
+    position: relative;
     font-style: normal;
     font-weight: 300;
     height: 41px;
     justify-content: center;
     align-items: center;
     margin-left: 3.5vw;
+    transition: 0.2s ease-in-out;
+}
+
+.header-nav-item:not(.header-nav-item-button):hover{
+    transform: scale(1.10);
+}
+
+.header-nav-item:not(.header-nav-item-button)::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: #FA9021;
+    position: absolute;
+    bottom: -5px;
+    left: -20%;
+    border-radius: 10%;
+    transition: .4s ease-in-out;
+}
+.header-nav-item:not(.header-nav-item-button):hover::after{
+    width: 140%;
 }
 
 .header-nav-item-button{
@@ -40,8 +61,12 @@
     height: 41px;
     border-radius: 6px;
     font-size: 13px;
+    transition: 0.2s ease-in-out;
 }
 
-.header-nav-item:hover{
-    color: #FA9021;
+.header-nav-item-button:hover{
+    transform: scale(1.05);
+    background: #ff8400;
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.255);
+    font-size: 14px;
 }

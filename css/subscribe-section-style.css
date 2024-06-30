@@ -88,10 +88,11 @@
     font-size: 13px;
     line-height: 20px;
     text-align: center;
-    transition: transform 0.2s ease-in-out, background .2s linear;
+    transition: 0.2s ease-in-out;
 }   
 
 .subscribe-container-form button:hover{
     transform: scale(1.05);
     background: #ff8400;
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.255);
 }

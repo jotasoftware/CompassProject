@@ -205,7 +205,7 @@ a{
 
 .form-section form input, .form-section form textarea{
     background: rgba(255, 255, 255, 0.07);
-    border: 0.6px solid #888888;
+    border: 0.6px solid #CECECE;
     border-radius: 9px;
     height: 53px;
     margin-top: 7px;
@@ -224,9 +224,13 @@ a{
 }
 
 .form-section form input:focus, .form-section form textarea:focus{
-    border: 0.6px solid #e6e6e6;
+    border: 0.6px solid #ffffff;
 }
 
+.form-section form input:focus ~ label,
+.form-section textarea:focus ~ label {
+    color: beige;
+}
 
 .form-section form button{
     margin-top: 30px;
@@ -243,10 +247,12 @@ a{
     line-height: 204.3%;
     border: none;
     color: white;
-    transition: transform 0.2s ease-in-out, background .2s linear;
+    transition: 0.2s ease-in-out;
 }   
 
 .form-section form button:hover{
     transform: scale(1.05);
     background: #ff8400;
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.255);
+    font-size: 17px;
 }
