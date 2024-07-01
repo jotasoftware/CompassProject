@@ -1,33 +1,38 @@
-# CompassProject
+# Compass Project
 
-# Epecificações do Projeto
-### Descrição Header e Footer:
+The Compass Project is a practical exercise focused on refining skills in HTML, CSS, and JavaScript. It incorporates various techniques and best practices to optimize performance and enhance user experience.
 
-- Header
-    - A Header deve estar nas duas páginas, contendo o ‘LOGO’ e todos os links como no figma (Home/About us/Portfolio/News/Contact us);
-    - O botão ‘Home’ deve encaminhar para a primeira página e o botão ‘Contact us’ deve encaminhar para a segunda página, os demais botões devem ser encaminhado para a página de erro (explicação nos requisitos obrigatórios).
-- Footer
-    - O Footer deve estar nas duas páginas, com o design fiel ao Figma;
-    - Os ícones de ‘Facebook’, ‘Instagram’, ‘Twitter’ e ‘LinkedIn’ devem ser clicáveis, direcionando para a página inicial de cada rede social;
-    - O link do Footer de ‘Contact us’ deve encaminhar para a segunda página, os demais botões devem ser encaminhados para a página de erro.
+### Features
 
-### Os requisitos **OBRIGATÓRIOS** são:
+The project consists of 4 HTML pages, each meticulously styled with CSS to ensure aesthetic appeal and usability. It includes:
 
-- Utilizar apenas HTML, CSS e JS. Não podendo usar bibliotecas externas.
-- Crie um repositório privado em seu Github e adicione os instrutores como colaboradores do projeto.
-- Os campos de formulário devem ser todos validados com **JavaScript**, isso é válido para todos os campos para preenchimento nas duas páginas:
-    - Enquanto todos os campos não forem preenchidos, o botão deve estar desabilitado;
-    - Campos de First Name e Last Name não podem ter números ou caracteres especiais;
-    - Validar o campo de e-mail com regex;
-    - O campo de Message deve ter pelo menos 10 caracteres;
-    - Ao enviar o formulário, direcionar pra uma página de sucesso com as informações que foram preenchidas.
-- Armazene os dados do formulário no LocalStorage.
-- Criação de uma tela de erro, caso o usuário se depare com um erro ao navegar no projeto.
-- A tela de erro deve ter header e footer.
-- Adicione um README ao seu projeto.
-- Faça pequenos commits e use Convencionais Commits para manter seu repositório organizado.
+- Integration of SVG and PNG images for visual enhancements.
+- Implementation of dynamic features using pure JavaScript to improve page efficiency.
+- Addition of regex validations to ensure input data integrity.
+- Integration of highly animated hover effects to enhance interactivity and user engagement.
+- Responsive image design.
 
-### Os requisitos **OPCIONAIS** são:
+### Usage
 
-- Aplicar responsividade em seu projeto.
-- Aplicar efeitos de Hover.
+To experience the Compass Project, simply open index.html in your web browser. Explore the interactive elements and navigate through the different pages to see the project in action.
+
+### Version History
+
+**1.0.0** - Initial release (Date)
+
+### Functional Requirements
+
+1 - Message Sending: Users should be able to send messages through a form on the page, which will be stored and displayed in the system.
+
+2 - Success and error page: After sending a message, the system must redirect to a success page and if there is no next page, the user ends up on an error page.
+
+### Non-Functional Requirements
+
+1 - Performance: The system should be responsive and load quickly, ensuring a good user experience even on slower internet connections.
+
+2 - Browser Compatibility: The project should be compatible with major web browsers (such as Chrome, Firefox, Safari, Edge) to ensure a consistent experience for all users.
+
+### Author
+
+**João Pedro Moreira**
+- [@jotasoftware](https://www.github.com/jotasoftware)
