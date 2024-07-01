@@ -79,7 +79,6 @@
     width: 25%;
     margin-right: 2%;
     height: 75%;
-    background: #DC7000;
     border-radius: 8px;
     border: none;
     color: white;
@@ -91,7 +90,14 @@
     transition: 0.2s ease-in-out;
 }   
 
-.subscribe-container-form button:hover{
+.subscribe-button-disabled{
+    background: #5d5b58;
+}
+.subscribe-button-activated{
+    background: #DC7000;
+}
+
+.subscribe-button-activated:hover{
     transform: scale(1.05);
     background: #ff8400;
     box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.255);

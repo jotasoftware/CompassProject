@@ -1,17 +1,17 @@
-.main-header{
+.header{
     display: flex;
     color: #FFFFFF;
     margin: 37px 4vw;
     justify-content: space-between;
 }
 
-.main-header > a{
+.header > a{
     display: flex;
     align-items: center;
     transition: transform 0.2s ease-in-out;
 }
 
-.main-header > a:hover{
+.header > a:hover{
     transform: scale(1.05);
 }
 

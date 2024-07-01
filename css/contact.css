@@ -238,7 +238,6 @@ a{
     align-self: flex-start;
     width: 193px;
     height: 57px;
-    background: #DC7000;
     border-radius: 10px;
     font-family: "Poppins";
     font-style: normal;
@@ -250,7 +249,14 @@ a{
     transition: 0.2s ease-in-out;
 }   
 
-.form-section form button:hover{
+.form-section-button-disabled{
+    background: #5d5b58;
+}
+.form-section-button-activated{
+    background: #DC7000;
+}
+
+.form-section-button-activated:hover{
     transform: scale(1.05);
     background: #ff8400;
     box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.255);

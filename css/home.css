@@ -11,12 +11,6 @@ a{
     text-decoration: none;
 }
 
-/* Sections */
-
-.section-title{
-    font-weight: 700;
-}
-
 /* Introduction */
 
 .introduction-container{
@@ -26,6 +20,7 @@ a{
 
 .introduction-title{
     font-size: 50px;
+    font-weight: 700;
     margin: 20px 0 32px;
 }
 
@@ -58,7 +53,7 @@ a{
 
 .introduction-more-details:hover{
     font-size: 17px;
-    background: linear-gradient(#ff9524, #ffb464);
+    background: linear-gradient(#ff8e15, #ffa646);
     box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.255);
 }
 
@@ -150,7 +145,7 @@ a{
     }
     50%{
         left: 15%;
-        top: -25%;
+        top: -5%;
     }
     100%{
         left: 0;
