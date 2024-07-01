@@ -17,7 +17,9 @@ function checkInput(e) {
 function subscribeBtnClick (e){
     e.preventDefault();
     if(subscribeBtn.classList.contains('subscribe-button-activated')){
-        window.location.href = 'error.html';
+        let email = subscribeInput.value;
+        localStorage.setItem('email', email);
+        window.location.href = 'success.html';
     }
 }
 
